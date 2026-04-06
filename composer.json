@@ -1,0 +1,28 @@
+{
+    "name": "janderson/json-rpc",
+    "description": "Minimal JSON-RPC 2.0 implementation",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Janderson\\JsonRpc\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Janderson\\JsonRpc\\Test\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonathan Anderson",
+            "email": "janderson@janderson.ca"
+        }
+    ],
+    "require": {
+        "php": ">=8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.0"
+    }
+}
